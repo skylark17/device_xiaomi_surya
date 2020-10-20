@@ -24,5 +24,4 @@
      <SwitchPreference
         android:key="pref_pill_style_notch"
         android:title="@string/device_pill_style_notch"/>
-        
 </PreferenceScreen>
