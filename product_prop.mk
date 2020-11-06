@@ -41,3 +41,9 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Priv-app permission
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
+    ro.vendor.smart_dfps.enable=false
+
+# Enable inband ringing
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.bluetooth.disableinbandringing=false
+
