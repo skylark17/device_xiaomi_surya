@@ -47,4 +47,13 @@ PRODUCT_PRODUCT_PROPERTIES += \
 # Enable inband ringing
 PRODUCT_PRODUCT_PROPERTIES += \
     persist.bluetooth.disableinbandringing=false
+    
+# Zygote
+PRODUCT_PRODUCT_PROPERTIES += \
+    persist.device_config.runtime_native.usap_pool_enabled=true
+    
+# Wireless display
+debug.sf.latch_unsignaled=1
+persist.debug.wfd.enable=1
+persist.sys.wfd.virtual=0    
 
