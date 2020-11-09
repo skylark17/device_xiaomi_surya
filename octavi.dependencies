@@ -1,8 +1,8 @@
 [
     {
         "remote":       "github",
-        "repository":   "mahajant99/vendor_xiaomi_surya",
+        "repository":   "skylark17/vendor_xiaomi_surya",
         "target_path":  "vendor/xiaomi/surya",
-        "revision":     "ten"
+        "revision":     "eleven"
     }
 ]
