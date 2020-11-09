@@ -84,7 +84,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.mi_thermald.rc
+    init.mi_thermald.rc \
+    init.safailnet.rc 
 
 # Keylayout
 PRODUCT_COPY_FILES += \
